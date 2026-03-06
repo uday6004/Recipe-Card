@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Garlic Butter Chicken Recipe</title>
+    <style>
+        body { font-family: system-ui; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
+        article { background: #f8faf8; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        figure img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; }
+        details { margin: 1rem 0; }
+        .highlight { background: #ffeb3b; padding: 0.2rem 0.4rem; border-radius: 4px; }
+        @media (max-width: 600px) { body { padding: 1rem; } }
+    </style>
+</head>
+<body>
+    <article class="recipe-card">
+        <header>
+            <h1>🥘 Garlic Butter Chicken</h1>
+            <p>Ready in <mark>25 minutes</mark> | Serves 4</p>
+        </header>
+
+        <figure>
+            <img src="https://via.placeholder.com/800x400/2d7a4f/f8faf8?text=Garlic+Chicken" alt="Golden garlic butter chicken with herbs">
+            <figcaption>Perfectly seared chicken in garlic butter sauce</figcaption>
+        </figure>
+
+        <section aria-labelledby="prep-time">
+            <h2 id="prep-time">⏱️ Prep Time</h2>
+            <ul>
+                <li>Prep: <time datetime="PT10M">10 min</time></li>
+                <li>Cook: <time datetime="PT15M">15 min</time></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🍗 Ingredients</h2>
+            <ul>
+                <li>4 chicken breasts</li>
+                <li>4 tbsp <mark>butter</mark></li>
+                <li>6 garlic cloves, minced</li>
+                <li>Juice of 1 lemon</li>
+            </ul>
+        </section>
+
+        <details>
+            <summary>📋 Full Instructions (Click to expand)</summary>
+            <ol>
+                <li>Season chicken with salt & pepper</li>
+                <li>Melt butter, add garlic until golden</li>
+                <li>Sear chicken 6 min per side</li>
+                <li>Finish with lemon juice</li>
+            </ol>
+        </details>
+
+        <section aria-label="nutrition">
+            <h2>🥗 Nutrition</h2>
+            <p>Per serving: <strong>420 cal</strong>, Protein: 38g, Carbs: 2g</p>
+        </section>
+
+        <footer>
+            <p>Last updated: <time datetime="2026-03-06">Mar 6, 2026</time></p>
+            <p><button>⭐ Rate Recipe</button> <button>📱 Share</button></p>
+        </footer>
+    </article>
+
+    <!-- Native modal demo -->
+    <dialog id="modal">
+        <p>Recipe saved to favorites! 🎉</p>
+        <button onclick="document.getElementById('modal').close()">Close</button>
+    </dialog>
+</body>
+</html>
